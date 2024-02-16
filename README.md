@@ -4,7 +4,7 @@ This repo hosts the code for the Whisper Lambda, which is a Lambda function that
 
 ## Usage
 
-> ![WARNING] Has a dependency on ffmpeg, which is not installed in the lambda.
+> **WARNING:** Has a dependency on **ffmpeg**, which is not installed in the lambda.
 
 Pull the model dependencies:
 
@@ -25,7 +25,7 @@ curl -v -X POST \
   -d @req.json
 ```
 
-> NOTE: Before deployment, remove all the extra files from the `model` directory, to avoid huge lambdas.
+> **NOTE:** Before deployment, remove all the extra files from the `model` directory, to avoid huge lambdas.
 
 ## Deployment
 
