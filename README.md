@@ -4,6 +4,8 @@ This repo hosts the code for the Whisper Lambda, which is a Lambda function that
 
 ## Usage
 
+> ![WARNING] Has a dependency on ffmpeg, which is not installed in the lambda.
+
 Pull the model dependencies:
 
 ```bash
@@ -31,6 +33,7 @@ TBD
 
 ## TODO
 
+- [ ] Fix the ffmpeg dependency
 - [ ] Add deployment instructions
 - [ ] Add terrafom scripts
 - [ ] Add CDK scripts
