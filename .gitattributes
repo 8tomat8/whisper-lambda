@@ -1,0 +1,5 @@
+models/ggml-small.bin filter=lfs diff=lfs merge=lfs -text
+models/ggml-tiny.bin filter=lfs diff=lfs merge=lfs -text
+models/ggml-base.bin filter=lfs diff=lfs merge=lfs -text
+models/ggml-large.bin filter=lfs diff=lfs merge=lfs -text
+models/ggml-medium.bina filter=lfs diff=lfs merge=lfs -text
